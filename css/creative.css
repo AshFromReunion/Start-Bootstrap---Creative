@@ -1,0 +1,110 @@
+body {
+    font-family: "Open Sans";
+}
+
+.intro {
+    background-color: #f05f40;
+    color: white;
+}
+
+.para-header {
+    font-size: 14px;
+    color: #b5b1b0;
+    font-family: "Merriweather";
+}
+
+.para {
+    color: #f8cec6;
+}
+
+.para-gris {
+    color: #777777;
+    font-size: 16px;
+}
+
+.para-footer {
+    font-family: "Merriweather";
+}
+
+.intro hr {
+    width: 50px;
+    border: 2px solid white;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #f05f40;
+}
+
+.espace-bloc {
+    padding: 100px 0;
+}
+
+.image .container-fluid .no-padding {
+    padding: 0px;
+}
+
+.download {
+    background-color: #222222;
+    color: white;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+body header {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    min-height: 500px;
+}
+
+header .navbar-default {
+    background-color: transparent;
+    margin-bottom: 100px;
+    border: none;
+}
+
+header nav .navbar-header .navbar-brand,
+header .navbar-default .navbar-nav li a {
+    color: white;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+    background-color: #f05f40;
+    color: white;
+}
+
+header nav .navbar-header .navbar-brand:hover {
+    color: #f05f40;
+}
+
+.fa {
+    font-size: 50px;
+    color: #f05f40;
+}
+
+.btn {
+    border-radius: 50px;
+    border: none;
+}
+
+.fa-envelope,
+.fa-phone {
+    color: #333333;
+}
+
+.color-red {
+    color: #f05f40;
+}
+
+@media screen and (max-width: 767px) {
+    header .navbar-default {
+        background-color: black;
+        margin-bottom: 100px;
+        border: none;
+    }
+}
